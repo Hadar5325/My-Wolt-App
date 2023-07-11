@@ -31,7 +31,7 @@ export function Home() {
 
     return (
         <section>
-            <Link to="/city">Go-to-city</Link>
+            <Link to="/city/Rehovot">Go-to-city-Rehovot</Link>
 
             <div className='containter-image-text'>
                 <div className='div-for-image-cover'>

@@ -21,7 +21,7 @@ function _createALotData() {
         data.push(_createOneData('Rehovot', 'פופולרי עכשיו', 'glida1', 'glida-sub', 20, 9.2, "../assets/style/images/breakfast.avif"))
         data.push(_createOneData('Rehovot', ['פופולרי עכשיו', 'מצרכים שאוהבים'], 'glida2', 'glida-sub', 20, 9.2, "../assets/style/images/breakfast.avif"))
         data.push(_createOneData('Rehovot', 'אוהבי ירקות', 'glida3', 'glida-sub', 20, 9.2, "../assets/style/images/breakfast.avif"))
-        data.push(_createOneData('Rehovot', ['אוהבי ירקות', 'מצרכים שאוהבים'], 'glida4', 'glida-sub', 20, 9.2, "../assets/style/images/breakfast.avif"))
+        data.push(_createOneData('Rehovot', ['מצרכים שאוהבים'], 'glida4', 'glida-sub', 20, 9.2, "../assets/style/images/breakfast.avif"))
         data.push(_createOneData('Rehovot', 'פופולרי עכשיו', 'glida4', 'glida-sub', 20, 9.2, "../assets/style/images/breakfast.avif"))
         data.push(_createOneData('Rehovot', 'מצרכים שאוהבים', 'glida5', 'glida-sub', 20, 9.2, "../assets/style/images/breakfast.avif"))
         data.push(_createOneData('Rehovot', 'אוהבי ירקות', 'glida6', 'glida-sub', 20, 9.2, "../assets/style/images/breakfast.avif"))

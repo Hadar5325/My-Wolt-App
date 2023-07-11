@@ -36,7 +36,7 @@ export function List({ data }) {
                 </div>
                 <div className="category-name">פופלרי עכשיו</div>
             </div>
-            <div className="data-representation-1">
+            <div className="data-representation">
                 {popularArr.map(info => {
                     return <Details key={info.information.id} info={info.information} />
                 })}
@@ -52,7 +52,7 @@ export function List({ data }) {
                 </div>
                 <div className="category-name">מצרכים שאוהבים</div>
             </div>
-            <div className="data-representation-1">
+            <div className="data-representation">
                 {likableArr.map(info => {
                     return <Details key={info.information.id} info={info.information} />
                 })}
@@ -68,7 +68,7 @@ export function List({ data }) {
                 </div>
                 <div className="category-name">אוהבי ירקות</div>
             </div>
-            <div className="data-representation-1">
+            <div className="data-representation">
                 {loveMeatArr.map(info => {
                     return <Details key={info.information.id} info={info.information} />
                 })}
