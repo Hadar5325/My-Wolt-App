@@ -1,0 +1,22 @@
+{
+  "name": "wolt-app",
+  "version": "1.0.0",
+  "description": "\"# myWolt\" \r \"# My-Wolt-App\"",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadar5325/My-Wolt-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hadar5325/My-Wolt-App/issues"
+  },
+  "homepage": "https://github.com/Hadar5325/My-Wolt-App#readme"
+}

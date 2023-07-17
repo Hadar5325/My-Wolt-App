@@ -19,7 +19,7 @@ export function Home() {
         // frontEndService.query()
         if (currentCity.city === '') return
         navigate(`/city/${currentCity}`)
-        
+
     }, [currentCity])
 
 
@@ -34,14 +34,16 @@ export function Home() {
             <Link to="/city/Rehovot">Go-to-city-Rehovot</Link>
 
             <div className='containter-image-text'>
-                <div className='div-for-image-cover'>
-                    <img className='image-cover' src='images/cover.jpg'></img>
-                </div >
-                <div className='information'>
-                    <h1>מגיע לך להתפנק</h1>
-                    <div className="address">כתובת למשלוח</div>
-                    <Filter onSubmit={onSubmit} />
-                    <h2>או לצפות במקומות הכי אהובים באיזור תל אביב</h2>
+                <div className="inside-container-image-text">
+                    <div className='information'>
+                        <h1>מגיע לך להתפנק</h1>
+                        <div className="address">כתובת למשלוח</div>
+                        <Filter onSubmit={onSubmit} />
+                        <h2>או לצפות במקומות הכי אהובים באיזור תל אביב</h2>
+                    </div>
+                    <div className='div-for-image-cover'>
+                        <img className='image-cover' src='images/cover.jpg'></img>
+                    </div>
                 </div>
             </div>
             <div className="places-container">

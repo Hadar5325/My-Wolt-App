@@ -2,9 +2,10 @@
 /* Home page */
 html {
     font-size: 14px;
+    direction: rtl;
 }
 
-div.containter-image-text,
+div.inside-container-image-text,
 div.information,
 div.text-about-country,
 div.about-us-containter,
@@ -15,11 +16,11 @@ div.info-about-us-containter {
 div.containter-image-text {
     height: 50rem;
     background-color: aquamarine;
+    overflow: hidden;
 }
-
-div.div-for-image-cover {
-    height: 40rem;
-}
+/* div.div-for-image-cover { */
+    /* height: 40rem; */
+/* } */
 
 a.image-cover {
     height: 100%;
@@ -96,4 +97,8 @@ div.really-close-to-you{
     font-family: omnes;
     font-size: large;
     background-color: aqua;
+}
+div.inside-container-image-text{
+    height: 100%;
+    width: 100%;
 }
